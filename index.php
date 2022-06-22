@@ -20,8 +20,14 @@
         .container h1{
             color: white;
         }
-        .container p{
+        p{
             color: white;
+            font-size: 18px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .submitMsg{
+            color: green;
+            font-family: 'Ubuntu', sans-serif;
         }
     }
     </style>
@@ -35,13 +41,23 @@
             include("form.php");
             if($insert == true){
                 echo "<p class='submitMsg'>Thanks for submitting your form. We are happy to see you joining us for the Bangladesh trip.</p>";
+                echo '
+                <html>
+                    <img id="img1" src="success.jpg" alt="success">
+                </html>
+                ';
             }
         ?>
         <div id="error"></div>
         <form action="index.php" method="post">
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
             <input type="text" name="age" id="age" placeholder="Enter your age" required>
-            <input type="text" name="gender" id="gender" placeholder="Enter your gender" required>
+            <select name="gender" id="gender">
+                <option value="">--Select--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <!-- <input type="text" name="gender" id="gender" placeholder="Enter your gender" required> -->
             <input type="email" name="email" id="email" placeholder="Enter your email" required>
             <input type="tel" name="phone" id="phone" placeholder="Enter your phone" required>
             <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter other information or queries here"></textarea>
