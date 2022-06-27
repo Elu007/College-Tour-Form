@@ -94,14 +94,3 @@ select{
     display: block;
     margin: 10px auto;
 }
-
-.btn-pay{
-    width: 80%;
-    color: white;
-    background-color: green;
-    border: 2px solid black;
-    padding: 6px;
-    font-size: 18px;
-    font-weight: bolder;
-    border-radius: 10px;
-}
