@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Travel Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon_cleaned.svg" type="image/x-icon">
     <style>
         @media only screen and (max-width: 1024px){
         
@@ -57,7 +58,6 @@
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
-            <!-- <input type="text" name="gender" id="gender" placeholder="Enter your gender" required> -->
             <input type="email" name="email" id="email" placeholder="Enter your email" required>
             <input type="tel" name="phone" id="phone" placeholder="Enter your phone" required>
             <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter other information or queries here"></textarea>
