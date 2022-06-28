@@ -30,6 +30,18 @@ for live demo
 - It gives warning if any wrong input or blank input for mandatory fields
 - Data stored in safe place, no one can steal it from web browser
 
+## Installation
+
+Install my-project on your local computer
+
+```bash
+  git clone https://github.com/Elu007/College-Tour-Form.git
+```
+If you have set the path of php folder in your computer then just run
+```bash
+    php -S localhost:8000
+```
+And follow the link
 
 ## Tech Stack
 
