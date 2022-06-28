@@ -60,7 +60,7 @@
             </select>
             <input type="email" name="email" id="email" placeholder="Enter your email" required>
             <input type="tel" name="phone" id="phone" placeholder="Enter your phone" required>
-            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter other information or queries here"></textarea>
+            <textarea name="descr" id="descr" cols="30" rows="10" placeholder="Enter other information or queries here"></textarea>
             <span>
                 <button class="btn" id="submit">Submit</button>
                 <button class="btn" id="reset">Reset</button>

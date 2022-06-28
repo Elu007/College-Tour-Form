@@ -23,9 +23,9 @@
     $gender = $_POST['gender'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $desc = $_POST['desc'];
+    $descr = $_POST['descr'];
 
-    $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `desc`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
+    $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `descr`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$descr', current_timestamp());";
     // Execute the query
     if($con->query($sql) == true){
         // echo "Successfully inserted";
