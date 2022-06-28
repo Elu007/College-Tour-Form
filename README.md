@@ -36,6 +36,7 @@ for live demo
 **Languages:** HTML, CSS, JavaScript, PHP, MySQL
 
 **Server:** MySQL, phpMyAdmin
+**Hosted:** 000webhost.com
 
 
 ## 🔗 Links
