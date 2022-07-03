@@ -3,13 +3,14 @@
     if(isset($_POST['name'])){
     // Set connection variables
     $server = "localhost";
-    $username = "root"; 
+    $username = "id19182968_trip"; 
+    $dbname = "id19182968_travel";
     // If you are using localhost then our username will be "root" and password will be ""
-    $password = "";
+    $password = "?f{a{jI8?tSnDf}m";
 
     // For connection we use a variable which takes these three things
     // Create a database connection
-    $con = mysqli_connect($server, $username, $password);
+    $con = mysqli_connect($server, $username, $password,$dbname);
 
     // Check for connection success
     if(!$con){
@@ -25,7 +26,7 @@
     $phone = $_POST['phone'];
     $descr = $_POST['descr'];
 
-    $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `descr`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$descr', current_timestamp());";
+    $sql = "INSERT INTO `trip` (`name`, `age`, `gender`, `email`, `phone`, `descr`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$descr', current_timestamp());";
     // Execute the query
     if($con->query($sql) == true){
         // echo "Successfully inserted";
