@@ -7,12 +7,12 @@ This form can be also customized for other purposes.
 
 ## Deployment
 
-This project is hosted on 000webhostapp.com
+This project is hosted on infinityfree.net
 
 
 ## Demo
 
-Click here- https://collegetravel.000webhostapp.com/
+Click here- http://collegetravel.42web.io/
 for live demo
 
 
@@ -48,7 +48,7 @@ And follow the link
 **Languages:** HTML, CSS, JavaScript, PHP, MySQL
 
 **Server:** MySQL, phpMyAdmin
-**Hosted:** 000webhost.com
+**Hosted:** https://app.infinityfree.net/
 
 
 ## 🔗 Links
